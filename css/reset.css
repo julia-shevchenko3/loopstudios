@@ -5,9 +5,9 @@ body {
 	width: 100%;
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
-	   -moz-text-size-adjust: 100%;
-	    -ms-text-size-adjust: 100%;
-	        text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
 }
 
 *,
@@ -26,7 +26,13 @@ button {
 input,
 button,
 textarea,
-select {
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font: inherit;
 }
 
