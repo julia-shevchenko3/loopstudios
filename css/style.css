@@ -267,19 +267,19 @@ body._lock {
 }
 
 .icon-facebook {
-	background-image: url("/images/icons/icon-facebook.svg");
+	background-image: url("../images/icons/icon-facebook.svg");
 }
 
 .icon-twitter {
-	background-image: url("/images/icons/icon-instagram.svg");
+	background-image: url("../images/icons/icon-instagram.svg");
 }
 
 .icon-pinterest {
-	background-image: url("/images/icons/icon-pinterest.svg");
+	background-image: url("../images/icons/icon-pinterest.svg");
 }
 
 .icon-instagram {
-	background-image: url("/images/icons/icon-twitter.svg");
+	background-image: url("../images/icons/icon-twitter.svg");
 }
 
 .copyright {
