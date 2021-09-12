@@ -205,6 +205,8 @@ body._lock {
 	width: 100%;
 	height: 100%;
 	background: transparent;
+	-webkit-transition: all 0.7s;
+	-o-transition: all 0.7s;
 	transition: all 0.7s;
 }
 
@@ -506,12 +508,18 @@ body._lock {
 	}
 
 	.creations {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 
 	.creations__header {
-		align-self: center;
+		-ms-flex-item-align: center;
+		    align-self: center;
 	}
 
 	.creations__content-list {
@@ -529,7 +537,8 @@ body._lock {
 
 	.creations__button-mobile {
 		display: inline-block;
-		align-self: center;
+		-ms-flex-item-align: center;
+		    align-self: center;
 	}
 }
 
