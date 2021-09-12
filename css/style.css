@@ -53,7 +53,7 @@ body._lock {
 /* == hero == */
 
 .hero {
-	background: url("/images/bg-hero.jpg") no-repeat center var(--black);
+	background: url("images/bg-hero.jpg") no-repeat center var(--black);
 	background-size: cover;
 	color: var(--white);
 }
